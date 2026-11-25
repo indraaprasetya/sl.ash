@@ -1,0 +1,33 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Exported builds & local presets
+builds/
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono / C# (if added later)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Python / helper script caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs, temporary & OS files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor folders
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
